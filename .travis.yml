@@ -19,5 +19,4 @@ deploy:
   on:
     branch: master
   access_key_id: $AWS_BEANSTALK_ACCESS_KEY_ID
-  secret_access_key:
-    secure: "$AWS_BEANSTALK_SECRET_ACCESS_KEY"
+  secret_access_key: $AWS_BEANSTALK_SECRET_ACCESS_KEY
